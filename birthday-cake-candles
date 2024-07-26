@@ -1,0 +1,11 @@
+ int count=0;
+     int maxi=candles[0];
+     
+     for(int i=0;i<candles.size();i++){
+         maxi=max(maxi,candles[i]);
+     }
+     for(int i=0;i<candles.size();i++){
+         if(maxi==candles[i])
+             count++;
+     }
+     return count;
