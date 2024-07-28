@@ -1,0 +1,14 @@
+void staircase(int n) {
+        for(int i=0;i<n;i++){
+         
+         //spaces 
+           for(int j=i;j<n-1;j++){
+                cout<<" ";
+            }
+         // stair 
+            for(int k=n-i-1;k<n;k++){
+                cout<<"#";
+            }
+            cout<<endl;
+        }
+}
